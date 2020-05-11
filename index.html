@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Timer</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mybox">
+        <a id="buttonreset" class="button reset hide" href="#"><img src="assets/reset.svg" alt=""></a>
+        <div class="wrapper">
+            <a id="buttonmain" class="button play" href="#"><img src="assets/play.svg" alt=""></a>
+            <svg viewBox="0 0 100 100" class="svg">
+                <circle id="pie2" r="45" cx="50" cy="50" class="circle"/>
+                <circle id="pie" r="22.5" cx="50" cy="50" class="percent-00"/>
+            </svg>
+        </div>
+        <div class="time-box">
+           <div class="time-text">
+            <div><span id="time"><input type="text" id="timeinput" value="10" maxlength="2">min</span></div>
+          </div>
+        </div>
+    </div>
+    <!-- https://github.com/husa/timer.js/ -->
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
