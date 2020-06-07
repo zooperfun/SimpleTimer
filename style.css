@@ -98,7 +98,12 @@ body{
     stroke-width: 48;
     transition: stroke-dasharray .2s ease-out;
   }
-
+  #piesec2{
+    fill: rgba(59, 157, 187, 0.45);
+  }
+  
+  }
+  
   #pie {
     /* Appearance */
     stroke: #52B4D2;
