@@ -87,122 +87,88 @@ body{
     /* Appearance */
     transform: rotate(-90deg);
   }
-  
-  #pie, #pie2 {
+  #pie, #pie2  {
     /* Appearance */
-    fill: #52B4D2;;
+    fill: #AAC7D0;
   }
-  
+
+  #piesec {
+    stroke: #3c9dbb;
+    stroke-dasharray: 0 151;
+    stroke-width: 48;
+    transition: stroke-dasharray .2s ease-out;
+  }
+
   #pie {
     /* Appearance */
-    stroke: #AAC7D0 ;
+    stroke: #52B4D2;
     stroke-dasharray: 0 141;
     stroke-width: 45;
-    transition: stroke-dasharray .5s ease-out;
+    transition: stroke-dasharray .2s ease-out;
   }
-  #pie.percent-00 {
+  #pie.percent-0 {
     stroke-dasharray: 0 141;
   }
-#pie.percent-1{ stroke-dasharray: 1.41 141}
-#pie.percent-2{ stroke-dasharray: 2.82 141}
-#pie.percent-3{ stroke-dasharray: 4.23 141}
-#pie.percent-4{ stroke-dasharray: 5.64 141}
-#pie.percent-5{ stroke-dasharray: 7.05 141}
-#pie.percent-6{ stroke-dasharray: 8.46 141}
-#pie.percent-7{ stroke-dasharray: 9.87 141}
-#pie.percent-8{ stroke-dasharray: 11.28 141}
-#pie.percent-9{ stroke-dasharray: 12.69 141}
-#pie.percent-10{ stroke-dasharray: 14.10 141}
-#pie.percent-11{ stroke-dasharray: 15.51 141}
-#pie.percent-12{ stroke-dasharray: 16.92 141}
-#pie.percent-13{ stroke-dasharray: 18.33 141}
-#pie.percent-14{ stroke-dasharray: 19.74 141}
-#pie.percent-15{ stroke-dasharray: 21.15 141}
-#pie.percent-16{ stroke-dasharray: 22.56 141}
-#pie.percent-17{ stroke-dasharray: 23.97 141}
-#pie.percent-18{ stroke-dasharray: 25.38 141}
-#pie.percent-19{ stroke-dasharray: 26.79 141}
-#pie.percent-20{ stroke-dasharray: 28.20 141}
-#pie.percent-21{ stroke-dasharray: 29.61 141}
-#pie.percent-22{ stroke-dasharray: 31.02 141}
-#pie.percent-23{ stroke-dasharray: 32.43 141}
-#pie.percent-24{ stroke-dasharray: 33.84 141}
-#pie.percent-25{ stroke-dasharray: 35.25 141}
-#pie.percent-26{ stroke-dasharray: 36.66 141}
-#pie.percent-27{ stroke-dasharray: 38.07 141}
-#pie.percent-28{ stroke-dasharray: 39.48 141}
-#pie.percent-29{ stroke-dasharray: 40.89 141}
-#pie.percent-30{ stroke-dasharray: 42.30 141}
-#pie.percent-31{ stroke-dasharray: 43.71 141}
-#pie.percent-32{ stroke-dasharray: 45.12 141}
-#pie.percent-33{ stroke-dasharray: 46.53 141}
-#pie.percent-34{ stroke-dasharray: 47.94 141}
-#pie.percent-35{ stroke-dasharray: 49.35 141}
-#pie.percent-36{ stroke-dasharray: 50.76 141}
-#pie.percent-37{ stroke-dasharray: 52.17 141}
-#pie.percent-38{ stroke-dasharray: 53.58 141}
-#pie.percent-39{ stroke-dasharray: 54.99 141}
-#pie.percent-40{ stroke-dasharray: 56.40 141}
-#pie.percent-41{ stroke-dasharray: 57.81 141}
-#pie.percent-42{ stroke-dasharray: 59.22 141}
-#pie.percent-43{ stroke-dasharray: 60.63 141}
-#pie.percent-44{ stroke-dasharray: 62.04 141}
-#pie.percent-45{ stroke-dasharray: 63.45 141}
-#pie.percent-46{ stroke-dasharray: 64.86 141}
-#pie.percent-47{ stroke-dasharray: 66.27 141}
-#pie.percent-48{ stroke-dasharray: 67.68 141}
-#pie.percent-49{ stroke-dasharray: 69.09 141}
-#pie.percent-50{ stroke-dasharray: 70.50 141}
-#pie.percent-51{ stroke-dasharray: 71.91 141}
-#pie.percent-52{ stroke-dasharray: 73.32 141}
-#pie.percent-53{ stroke-dasharray: 74.73 141}
-#pie.percent-54{ stroke-dasharray: 76.14 141}
-#pie.percent-55{ stroke-dasharray: 77.55 141}
-#pie.percent-56{ stroke-dasharray: 78.96 141}
-#pie.percent-57{ stroke-dasharray: 80.37 141}
-#pie.percent-58{ stroke-dasharray: 81.78 141}
-#pie.percent-59{ stroke-dasharray: 83.19 141}
-#pie.percent-60{ stroke-dasharray: 84.60 141}
-#pie.percent-61{ stroke-dasharray: 86.01 141}
-#pie.percent-62{ stroke-dasharray: 87.42 141}
-#pie.percent-63{ stroke-dasharray: 88.83 141}
-#pie.percent-64{ stroke-dasharray: 90.24 141}
-#pie.percent-65{ stroke-dasharray: 91.65 141}
-#pie.percent-66{ stroke-dasharray: 93.06 141}
-#pie.percent-67{ stroke-dasharray: 94.47 141}
-#pie.percent-68{ stroke-dasharray: 95.88 141}
-#pie.percent-69{ stroke-dasharray: 97.29 141}
-#pie.percent-70{ stroke-dasharray: 98.70 141}
-#pie.percent-71{ stroke-dasharray: 100.11 141}
-#pie.percent-72{ stroke-dasharray: 101.52 141}
-#pie.percent-73{ stroke-dasharray: 102.93 141}
-#pie.percent-74{ stroke-dasharray: 104.34 141}
-#pie.percent-75{ stroke-dasharray: 105.75 141}
-#pie.percent-76{ stroke-dasharray: 107.16 141}
-#pie.percent-77{ stroke-dasharray: 108.57 141}
-#pie.percent-78{ stroke-dasharray: 109.98 141}
-#pie.percent-79{ stroke-dasharray: 111.39 141}
-#pie.percent-80{ stroke-dasharray: 112.80 141}
-#pie.percent-81{ stroke-dasharray: 114.21 141}
-#pie.percent-82{ stroke-dasharray: 115.62 141}
-#pie.percent-83{ stroke-dasharray: 117.03 141}
-#pie.percent-84{ stroke-dasharray: 118.44 141}
-#pie.percent-85{ stroke-dasharray: 119.85 141}
-#pie.percent-86{ stroke-dasharray: 121.26 141}
-#pie.percent-87{ stroke-dasharray: 122.67 141}
-#pie.percent-88{ stroke-dasharray: 124.08 141}
-#pie.percent-89{ stroke-dasharray: 125.49 141}
-#pie.percent-90{ stroke-dasharray: 126.90 141}
-#pie.percent-91{ stroke-dasharray: 128.31 141}
-#pie.percent-92{ stroke-dasharray: 129.72 141}
-#pie.percent-93{ stroke-dasharray: 131.13 141}
-#pie.percent-94{ stroke-dasharray: 132.54 141}
-#pie.percent-95{ stroke-dasharray: 133.95 141}
-#pie.percent-96{ stroke-dasharray: 135.36 141}
-#pie.percent-97{ stroke-dasharray: 136.77 141}
-#pie.percent-98{ stroke-dasharray: 138.18 141}
-#pie.percent-99{ stroke-dasharray: 139.59 141}
-#pie.percent-100{ stroke-dasharray: 142.00 141}
+  #pie.percent-1{ stroke-dasharray: 2.35 141}
+  #pie.percent-2{ stroke-dasharray: 4.7 141}
+  #pie.percent-3{ stroke-dasharray: 7.050000000000001 141}
+  #pie.percent-4{ stroke-dasharray: 9.4 141}
+  #pie.percent-5{ stroke-dasharray: 11.75 141}
+  #pie.percent-6{ stroke-dasharray: 14.100000000000001 141}
+  #pie.percent-7{ stroke-dasharray: 16.45 141}
+  #pie.percent-8{ stroke-dasharray: 18.8 141}
+  #pie.percent-9{ stroke-dasharray: 21.15 141}
+  #pie.percent-10{ stroke-dasharray: 23.5 141}
+  #pie.percent-11{ stroke-dasharray: 25.849999999999998 141}
+  #pie.percent-12{ stroke-dasharray: 28.200000000000003 141}
+  #pie.percent-13{ stroke-dasharray: 30.55 141}
+  #pie.percent-14{ stroke-dasharray: 32.9 141}
+  #pie.percent-15{ stroke-dasharray: 35.25 141}
+  #pie.percent-16{ stroke-dasharray: 37.6 141}
+  #pie.percent-17{ stroke-dasharray: 39.949999999999996 141}
+  #pie.percent-18{ stroke-dasharray: 42.3 141}
+  #pie.percent-19{ stroke-dasharray: 44.65 141}
+  #pie.percent-20{ stroke-dasharray: 47 141}
+  #pie.percent-21{ stroke-dasharray: 49.349999999999994 141}
+  #pie.percent-22{ stroke-dasharray: 51.699999999999996 141}
+  #pie.percent-23{ stroke-dasharray: 54.050000000000004 141}
+  #pie.percent-24{ stroke-dasharray: 56.400000000000006 141}
+  #pie.percent-25{ stroke-dasharray: 58.75 141}
+  #pie.percent-26{ stroke-dasharray: 61.1 141}
+  #pie.percent-27{ stroke-dasharray: 63.45 141}
+  #pie.percent-28{ stroke-dasharray: 65.8 141}
+  #pie.percent-29{ stroke-dasharray: 68.15 141}
+  #pie.percent-30{ stroke-dasharray: 70.5 141}
+  #pie.percent-31{ stroke-dasharray: 72.85000000000001 141}
+  #pie.percent-32{ stroke-dasharray: 75.2 141}
+  #pie.percent-33{ stroke-dasharray: 77.55000000000001 141}
+  #pie.percent-34{ stroke-dasharray: 79.89999999999999 141}
+  #pie.percent-35{ stroke-dasharray: 82.25 141}
+  #pie.percent-36{ stroke-dasharray: 84.6 141}
+  #pie.percent-37{ stroke-dasharray: 86.95 141}
+  #pie.percent-38{ stroke-dasharray: 89.3 141}
+  #pie.percent-39{ stroke-dasharray: 91.65 141}
+  #pie.percent-40{ stroke-dasharray: 94 141}
+  #pie.percent-41{ stroke-dasharray: 96.35000000000001 141}
+  #pie.percent-42{ stroke-dasharray: 98.69999999999999 141}
+  #pie.percent-43{ stroke-dasharray: 101.05 141}
+  #pie.percent-44{ stroke-dasharray: 103.39999999999999 141}
+  #pie.percent-45{ stroke-dasharray: 105.75 141}
+  #pie.percent-46{ stroke-dasharray: 108.10000000000001 141}
+  #pie.percent-47{ stroke-dasharray: 110.45 141}
+  #pie.percent-48{ stroke-dasharray: 112.80000000000001 141}
+  #pie.percent-49{ stroke-dasharray: 115.14999999999999 141}
+  #pie.percent-50{ stroke-dasharray: 117.5 141}
+  #pie.percent-51{ stroke-dasharray: 119.85 141}
+  #pie.percent-52{ stroke-dasharray: 122.2 141}
+  #pie.percent-53{ stroke-dasharray: 124.55 141}
+  #pie.percent-54{ stroke-dasharray: 126.9 141}
+  #pie.percent-55{ stroke-dasharray: 129.25 141}
+  #pie.percent-56{ stroke-dasharray: 131.6 141}
+  #pie.percent-57{ stroke-dasharray: 133.95 141}
+  #pie.percent-58{ stroke-dasharray: 136.3 141}
+  #pie.percent-59{ stroke-dasharray: 138.65 141}
+  #pie.percent-60{ stroke-dasharray: 141.5 141}
 
   .wrapper{
     position: relative;
@@ -214,3 +180,65 @@ body{
     display: block;
     margin: auto;
   }
+
+  #piesec.percent-0{ stroke-dasharray: 0 151}
+  #piesec.percent-1{ stroke-dasharray: 2.5166666666666666 151}
+  #piesec.percent-2{ stroke-dasharray: 5.033333333333333 151}
+  #piesec.percent-3{ stroke-dasharray: 7.550000000000001 151}
+  #piesec.percent-4{ stroke-dasharray: 10.066666666666666 151}
+  #piesec.percent-5{ stroke-dasharray: 12.583333333333332 151}
+  #piesec.percent-6{ stroke-dasharray: 15.100000000000001 151}
+  #piesec.percent-7{ stroke-dasharray: 17.616666666666667 151}
+  #piesec.percent-8{ stroke-dasharray: 20.133333333333333 151}
+  #piesec.percent-9{ stroke-dasharray: 22.65 151}
+  #piesec.percent-10{ stroke-dasharray: 25.166666666666664 151}
+  #piesec.percent-11{ stroke-dasharray: 27.68333333333333 151}
+  #piesec.percent-12{ stroke-dasharray: 30.200000000000003 151}
+  #piesec.percent-13{ stroke-dasharray: 32.71666666666667 151}
+  #piesec.percent-14{ stroke-dasharray: 35.233333333333334 151}
+  #piesec.percent-15{ stroke-dasharray: 37.75 151}
+  #piesec.percent-16{ stroke-dasharray: 40.266666666666666 151}
+  #piesec.percent-17{ stroke-dasharray: 42.78333333333333 151}
+  #piesec.percent-18{ stroke-dasharray: 45.3 151}
+  #piesec.percent-19{ stroke-dasharray: 47.81666666666666 151}
+  #piesec.percent-20{ stroke-dasharray: 50.33333333333333 151}
+  #piesec.percent-21{ stroke-dasharray: 52.849999999999994 151}
+  #piesec.percent-22{ stroke-dasharray: 55.36666666666666 151}
+  #piesec.percent-23{ stroke-dasharray: 57.88333333333334 151}
+  #piesec.percent-24{ stroke-dasharray: 60.400000000000006 151}
+  #piesec.percent-25{ stroke-dasharray: 62.91666666666667 151}
+  #piesec.percent-26{ stroke-dasharray: 65.43333333333334 151}
+  #piesec.percent-27{ stroke-dasharray: 67.95 151}
+  #piesec.percent-28{ stroke-dasharray: 70.46666666666667 151}
+  #piesec.percent-29{ stroke-dasharray: 72.98333333333333 151}
+  #piesec.percent-30{ stroke-dasharray: 75.5 151}
+  #piesec.percent-31{ stroke-dasharray: 78.01666666666668 151}
+  #piesec.percent-32{ stroke-dasharray: 80.53333333333333 151}
+  #piesec.percent-33{ stroke-dasharray: 83.05000000000001 151}
+  #piesec.percent-34{ stroke-dasharray: 85.56666666666666 151}
+  #piesec.percent-35{ stroke-dasharray: 88.08333333333334 151}
+  #piesec.percent-36{ stroke-dasharray: 90.6 151}
+  #piesec.percent-37{ stroke-dasharray: 93.11666666666667 151}
+  #piesec.percent-38{ stroke-dasharray: 95.63333333333333 151}
+  #piesec.percent-39{ stroke-dasharray: 98.15 151}
+  #piesec.percent-40{ stroke-dasharray: 100.66666666666666 151}
+  #piesec.percent-41{ stroke-dasharray: 103.18333333333334 151}
+  #piesec.percent-42{ stroke-dasharray: 105.69999999999999 151}
+  #piesec.percent-43{ stroke-dasharray: 108.21666666666667 151}
+  #piesec.percent-44{ stroke-dasharray: 110.73333333333332 151}
+  #piesec.percent-45{ stroke-dasharray: 113.25 151}
+  #piesec.percent-46{ stroke-dasharray: 115.76666666666668 151}
+  #piesec.percent-47{ stroke-dasharray: 118.28333333333333 151}
+  #piesec.percent-48{ stroke-dasharray: 120.80000000000001 151}
+  #piesec.percent-49{ stroke-dasharray: 123.31666666666666 151}
+  #piesec.percent-50{ stroke-dasharray: 125.83333333333334 151}
+  #piesec.percent-51{ stroke-dasharray: 128.35 151}
+  #piesec.percent-52{ stroke-dasharray: 130.86666666666667 151}
+  #piesec.percent-53{ stroke-dasharray: 133.38333333333333 151}
+  #piesec.percent-54{ stroke-dasharray: 135.9 151}
+  #piesec.percent-55{ stroke-dasharray: 138.41666666666666 151}
+  #piesec.percent-56{ stroke-dasharray: 140.93333333333334 151}
+  #piesec.percent-57{ stroke-dasharray: 143.45 151}
+  #piesec.percent-58{ stroke-dasharray: 145.96666666666667 151}
+  #piesec.percent-59{ stroke-dasharray: 148.48333333333332 151}
+  #piesec.percent-60{ stroke-dasharray: 151 151}
